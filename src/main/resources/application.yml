@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: fileUploadDemo
+datasources:
+  default:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    db-type: mssql
+netty:
+  default:
+    allocator:
+      max-order: 3
